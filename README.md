@@ -19,7 +19,9 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/phemoniaultramicroscopicsilica-rgb/Project-Gash.git
-cd Project-Gash```
+cd Project-Gash
+
+---
 
 this is a public project so stay alert Maybe some clown Added Malware
 
