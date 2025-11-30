@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo python3 P.py
+sudo python3 ignore_important.py
