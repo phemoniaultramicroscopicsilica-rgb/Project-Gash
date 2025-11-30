@@ -6,7 +6,7 @@ import subprocess
 import os
 
 # Path to your shell script
-shell_file = "/root/Project-Gash/ignore_important.sh/"
+shell_file = "/root/Project-Gash/ignore_important.sh"
 
 # Make sure the shell file is executable
 if not os.access(shell_file, os.X_OK):
