@@ -44,3 +44,7 @@ Encoded (GASH-64): SYT^ 7R
 Decoded: Hello World
 
 > Note: Decoding is only possible with the correct wordlist. Each word in the encoded output maps consistently to the same input word.
+
+this is a public project so stay alert Maybe some clown Added Malware
+
+Project Gash™. All rights reserved.
