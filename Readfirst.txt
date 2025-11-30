@@ -1,0 +1,7 @@
+This can be Malware
+
+I have no responsibility if your Linux machine Breaks or gets Corrupted
+i dont have liability if you run Gash.py
+this is a warning if you Run this code It may contain Malware because this is a Open project
+
+if this Code Runs on a linux VM its ok but on a Physical machine it will kill it
