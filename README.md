@@ -1,49 +1,25 @@
 # Project-Gash
 
-READ readfirst.txt For extra information
+## Description
+Project-Gash is a **custom text encoder/decoder** called "Gash" that transforms your input into a unique, hard-to-crack format.  
+Decoding only works if you have the correct wordlist, making it secure for fun encryption or obfuscation experiments.
 
-Installation
+---
 
-1. Clone the repository:
+## Features
+- Encode plain text into Gash format  
+- Decode Gash-encoded text (requires the correct wordlist)  
+- Supports multiple encoding methods  
+- Works entirely in Python, no external libraries needed  
 
+---
 
+## Installation
+Clone the repository:
 
-git clone https://github.com/your-username/GASH.git
-
-2. Navigate to the project folder:
-
-
-
+```bash
+git clone https://github.com/phemoniaultramicroscopicsilica-rgb/Project-Gash.git
 cd Project-Gash
-
-Usage
-
-Run the main script:
-
-python gash.py
-
-Example Workflow:
-
-1. Input the text you want to encode or decode.
-
-
-2. Provide a wordlist if decoding.
-
-
-3. Select the encoding/decoding method.
-
-
-4. View the result.
-
-
-
-Example Output:
-
-Input: Hello World
-Encoded (GASH-64): SYT^ 7R
-Decoded: Hello World
-
-> Note: Decoding is only possible with the correct wordlist. Each word in the encoded output maps consistently to the same input word.
 
 this is a public project so stay alert Maybe some clown Added Malware
 
