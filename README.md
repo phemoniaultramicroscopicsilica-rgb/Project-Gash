@@ -12,13 +12,7 @@ git clone https://github.com/your-username/GASH.git
 
 
 
-cd GASH
-
-3. Install required dependencies (if using Python):
-
-
-
-pip install -r requirements.txt
+cd Project-Gash
 
 Usage
 
