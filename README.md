@@ -1,5 +1,7 @@
 # Project-Gash
 
+READ readfirst.txt For extra information
+
 Installation
 
 1. Clone the repository:
