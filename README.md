@@ -19,10 +19,17 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/phemoniaultramicroscopicsilica-rgb/Project-Gash.git
-cd Project-Gash```
+cd Project-Gash
+```
 
 ---
 
 this is a public project so stay alert Maybe some clown Added Malware
 
-Project Gash™. All rights reserved.
+
+
+Universal License (John M., Dec 10, 2025)
+
+© John M. — All rights reserved. Fork & use with credit.
+No liability — use at your own risk.
+No hate — prohibited under this license.
